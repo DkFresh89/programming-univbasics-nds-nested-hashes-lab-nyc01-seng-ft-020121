@@ -20,6 +20,13 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
+  expanded = [
+    list[0],
+    list[1],
+    list[2],
+    list[3],
+    list[4]
+    ]
 end
 
 def aoh_lookup(aoh, row, key)
